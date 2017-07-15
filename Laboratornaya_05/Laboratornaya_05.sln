@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_01", "Zadacha_01\Zadacha_01.csproj", "{4F06C40D-322A-4A84-AE80-E430A9B4CB45}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_11", "Zadacha_11\Zadacha_11.csproj", "{47702A0F-6763-4F5B-A77A-F30D8F8C64FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_13", "Zadacha_13\Zadacha_13.csproj", "{B2677A58-F4DC-4CEB-B10E-6A9A09D1B1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadacha_08", "Zadacha_08\Zadacha_08.csproj", "{231F187E-DD54-4EE0-B189-8BB43AFBA695}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B2677A58-F4DC-4CEB-B10E-6A9A09D1B1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2677A58-F4DC-4CEB-B10E-6A9A09D1B1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2677A58-F4DC-4CEB-B10E-6A9A09D1B1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231F187E-DD54-4EE0-B189-8BB43AFBA695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231F187E-DD54-4EE0-B189-8BB43AFBA695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231F187E-DD54-4EE0-B189-8BB43AFBA695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231F187E-DD54-4EE0-B189-8BB43AFBA695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
