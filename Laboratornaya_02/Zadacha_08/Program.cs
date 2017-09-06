@@ -14,10 +14,22 @@ namespace Zadacha_08
             t = Console.ReadLine();
             int T;
             T = int.Parse(t);
+            if (T < 0)
+            {
+                Console.WriteLine("Значение T должно быть положительным");
+                return;
+            }
+
             string l;
             l = Console.ReadLine();
             int L;
             L = int.Parse(l);
+            if (L < 0)
+            {
+                Console.WriteLine("Значение L должно быть положительным");
+                return;
+            }
+
             int R;
             R = T*100/L;
             int O;                        // объявляем остаток

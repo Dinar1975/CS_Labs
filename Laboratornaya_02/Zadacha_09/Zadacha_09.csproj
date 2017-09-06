@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8D5A904-5B2B-457E-8EF4-B5318D192155}</ProjectGuid>
+    <ProjectGuid>{66271060-1551-4EE3-B08E-DBF96838657B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zadacha_35</RootNamespace>
-    <AssemblyName>Zadacha_35</AssemblyName>
+    <RootNamespace>Zadacha_09</RootNamespace>
+    <AssemblyName>Zadacha_09</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
