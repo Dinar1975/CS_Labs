@@ -23,8 +23,7 @@ namespace Zadacha_07
             
             double T;
             T = Math.PI * R * R;                     // Площадь круга
-            Console.WriteLine("{0:F4}", T);
-
+            
             string e;
             e = Console.ReadLine();
             double E;
@@ -38,8 +37,7 @@ namespace Zadacha_07
             
             double SK;
             SK = E * E;                           // Площадь квадрата
-            Console.WriteLine("{0:F4}", SK);
-
+            
             if (SK > T)
             {
                 Console.WriteLine("Площадь квадрата {0:F4} больше площади круга {1:F4}", SK, T);
