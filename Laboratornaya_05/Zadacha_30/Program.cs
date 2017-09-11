@@ -46,7 +46,7 @@ namespace Zadacha_30
             double YP2;
             YP2 = double.Parse(yp2);
 
-            if ((YP1 - YP2) * XT + (XP2 - XP1) * YT + (XP1 * YP2) - (XP2 * YP1) = 0)            
+            if ((YP1 - YP2) * XT + (XP2 - XP1) * YT + (XP1 * YP2) - (XP2 * YP1) == 0)            
             {
                 Console.WriteLine("точка принадлежит прямой");
             }
