@@ -46,8 +46,7 @@ namespace Zadacha_03
                 Console.WriteLine("Значение A должно быть не больше значения B");
                 return;
             }
-
-                        
+                                    
             while (A <= B)
             {
                 Console.WriteLine(A + " ");
@@ -55,8 +54,6 @@ namespace Zadacha_03
             }
 
         
-
-
         }
     }
 }
