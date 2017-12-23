@@ -4,35 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zadacha_11
+namespace Zadacha_12
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите число");
-            
-            string a;
-            a = Console.ReadLine();
-            int A;
-            A = int.Parse(a);
+            int a;
+            a = - 10;
 
-            if (A < -100 || A > 500)
+            Console.WriteLine("Введите число");
+
+            string b;
+            b = Console.ReadLine();
+            int B;
+            B = int.Parse(b);
+
+            if (B < a || B > 10000)
             {
-                Console.WriteLine("Значение A должно быть в интервале [-100, 500]");
+                Console.WriteLine("Значение b должно быть в интервале [-10,10000]");
                 return;
             }
 
-            int c;
-            c = 500;
-
             int sum;
             sum = 0;
-
-            while (A <= c)
+                        
+            while (a <= B)
             {
-                sum = sum + A;
-                A = A + 1;
+                sum = sum + a;
+                a = a + 1;
             }
 
             Console.WriteLine("Ответ:" + sum);
