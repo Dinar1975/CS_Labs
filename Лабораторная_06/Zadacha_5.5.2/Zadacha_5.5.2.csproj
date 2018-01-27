@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DA7F55D-BBB7-43A7-BFD0-8B1A677DF9B9}</ProjectGuid>
+    <ProjectGuid>{AA111BD6-718C-4FE2-A550-BDD90E5B904F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zadacha_15</RootNamespace>
-    <AssemblyName>Zadacha_15</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>Zadacha_5._5._2</RootNamespace>
+    <AssemblyName>Zadacha_5.5.2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
