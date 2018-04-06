@@ -20,6 +20,7 @@ namespace Zadacha_5._1
             //Console.Write("20 ");
             //Console.Write("20 ");
             //Console.Write("20 ");
+            //Console.Write("20 ");
 
             int n = 10; // Сколько нужно 
             int i = 0; // Сколько уже
