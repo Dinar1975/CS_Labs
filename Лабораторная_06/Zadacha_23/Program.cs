@@ -10,21 +10,31 @@ namespace Zadacha_23
     {
         static void Main(string[] args)
         {
+            string n;
+            n = Console.ReadLine();
+            int N;
+            N = int.Parse(n);
+
+            if (N <= 0)
+            {
+                Console.WriteLine("Значение N должно быть неотрицательным");
+                return;
+            }
+
             int i = 0;
-
-            int n = 30;
-
             int m = 1;
-
-
-            while (i < 20)
+                        
+            while (i < N)
             {
                 Console.Write("#");
+                
 
                 if (m == 20)
                 {
-                    Console.Write(" ");
+                    Console.WriteLine(" ");
+                    m = 1;
                 }
+
                 i = i + 1;
                 m = m + 1;
 
