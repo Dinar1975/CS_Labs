@@ -32,7 +32,7 @@ namespace Zadacha_23
                 if (m == 20)
                 {
                     Console.WriteLine(" ");
-                    m = 1;
+                    m = 0;
                 }
 
                 i = i + 1;
