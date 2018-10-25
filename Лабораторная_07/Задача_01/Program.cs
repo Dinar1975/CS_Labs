@@ -25,7 +25,7 @@ namespace Задача_01
 
             if (A < 0 || arr.Length <= A)    // Ошибка если А больше или равна длине массива или меньше нуля 
             {
-                Console.WriteLine("Число A должно быть в интервале [0, " + arr.Length + ")");
+                Console.WriteLine("Число A должно быть в интервале [0, " + arr.Length + "]");
                 return;
             }
 

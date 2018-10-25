@@ -10,40 +10,47 @@ namespace Задача_05
     {
         static void Main(string[] args)
         {
-            String p;
-            p = Console.ReadLine();
-            int P = int.Parse(p);
+            String b;
+            b = Console.ReadLine();
+            int B = int.Parse(b);
 
-            String q;
-            q = Console.ReadLine();
-            int Q = int.Parse(q);
+            String e;
+            e = Console.ReadLine();
+            int E = int.Parse(e);
 
-            string data;
+            String data;
             data = Console.ReadLine();
 
             String[] arr = data.Split(' ');
 
-            String t = arr[0];
-
-            arr[0] = arr[3];
-
-            arr[3] = t;
-
             int i = 0;
-            while (i < arr.Length)
             {
-                Console.WriteLine(arr[i] + " " + i);
-                i = i + 1;
+                Console.WriteLine("0");                
             }
 
+            {
+                Console.WriteLine("1");
+            }
 
+            {
+                Console.WriteLine("2");
+            }
+
+            {
+                Console.WriteLine("3");
+            }
 
             
 
 
 
 
-
+            if (B == 0 || arr.Length <= E)
+            {
+                Console.WriteLine(" Число B должно быть в интервале [0, " + arr.Length + "]");
+                i = i + 1;
+            }
+            Console.WriteLine(arr[i] + " " + i);
 
 
 

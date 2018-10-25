@@ -10,12 +10,13 @@ namespace Zadacha_25
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите значение Y");
+            Console.WriteLine("Введите значение Y от 0 до 15");
 
             string y;
             y = Console.ReadLine();
             int Y;
-            Y = int.Parse(y);                      // Сколько нужно ввести
+            Y = int.Parse(y);                       // Сколько нужно ввести
+                                  
 
             if (Y < 0 || Y > 15)
             {
@@ -29,18 +30,19 @@ namespace Zadacha_25
             while (i < Y)
             {
                 Console.Write("#");
-                i = i + 1;
 
-                if (i > Y)
+                if (m >= Y)
                 {
-                    i = 1;
-                    Console.Write("-");
-                    m = m + 1;
-
+                    Console.Write(".");
+                    m = 0;
                 }
+
+                i = i + 1;
+                m = m + 1;
             }
 
 
         }
     }
 }
+

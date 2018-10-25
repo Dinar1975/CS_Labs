@@ -10,22 +10,25 @@ namespace Задача_02
     {
         static void Main(string[] args)
         {
+
             String data;
             data = Console.ReadLine();
             if (String.IsNullOrWhiteSpace(data))
             {
-                Console.WriteLine("Исходная строка пуста");
+                Console.WriteLine("Исходная строка пуста"); // Если строка пуста или в ней только пробелы
                 return;
             }
-            String[] arr = data.Split(' ');
 
-            int i = 0;
-            while (i <= arr.Length-1)          // Можно написать второй вариант i < arr.Length 
-            {
-                Console.WriteLine(arr[i] + " " + i);
-                i = i + 1;
+            String[] arr = data.Split(';');
 
-            }
+            
+            int n = 0;
+
+            n = (arr.Length)/2;
+                       
+            Console.WriteLine("Индекс " + n + " элемент" + arr[n]);
+            
+
 
 
 
