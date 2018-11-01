@@ -22,13 +22,17 @@ namespace Задача_6
             data = Console.ReadLine();
 
             String[] arr = data.Split(' ');
+                       
 
-            String t = arr[0];
-
-            arr[0] = arr[3];
-
-            arr[3] = t;
-
+            Console.WriteLine(arr[P]);  
+            Console.WriteLine(arr[Q]);
+                                                                   
+            String t = arr[P];
+               
+            arr[P] = arr[Q];
+                   
+            arr[Q] = t;
+            
             int i = 0;
             while (i < arr.Length)
             {
