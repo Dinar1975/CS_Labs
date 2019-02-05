@@ -12,7 +12,7 @@ namespace Задача_01
         {
             String a;
             a = Console.ReadLine();
-            int A = int.Parse(a);
+            int A = int.Parse(a);    // А - обозначает номер (или индекс) элемента
 
             String data;
             data = Console.ReadLine();
@@ -29,7 +29,7 @@ namespace Задача_01
                 return;
             }
 
-            Console.WriteLine(arr[A]);
+            Console.WriteLine(arr[A]); // arr[A] - обозначает значение элемента массива 
 
         }
     }
