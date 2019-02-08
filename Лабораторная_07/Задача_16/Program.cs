@@ -18,12 +18,35 @@ namespace Задача_16
             String element;    // значение элементов массива
                     
 
-
-            if (X > 0 || X < arr[X])
+            while (arr[n] > 0 && arr[n]  )
+            if (X != arr[n])
+                        
             {
-                element = int.Parse(arr[X]); // преобразуем элементы массива
-                Console.WriteLine(arr[X]);  
+                
+                Console.WriteLine(arr[n]);  
             }
+            else
+            {
+                Console.WriteLine(arr[n] + "+");
+            }
+
+
+
+            //while (I >= 10 && I <= 20)
+            //{
+            //    if (X != I)
+            //    {
+            //        Console.WriteLine(I);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(I + "+");
+            //    }
+            //    I = I + 1;
+            //}
+
+            
+
         }
     }
 }
